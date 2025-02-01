@@ -25,3 +25,40 @@
     @apply font-semibold;
   }
 }
+
+.FoodList{
+  background-color: #A31D1D;
+}
+.insideFoodList{
+  background-color: #FEF9E1;
+  color: #6D2323
+}
+.NavBar{
+  background-color: #6D2323;
+  color: #FEF9E1;
+}
+.SearchBar input {
+  color: #FEF9E1 !important; /* Forces text visibility */
+  caret-color: #FEF9E1 !important; /* Forces cursor visibility */
+}
+
+.SearchBar .MuiOutlinedInput-root {
+  background-color: #6D2323 !important; /* Matches NavBar */
+}
+
+.SearchBar .MuiOutlinedInput-root input {
+  color: #FEF9E1 !important; /* Text color */
+  caret-color: #FEF9E1 !important; /* Cursor color */
+}
+
+.SearchBar .MuiOutlinedInput-root fieldset {
+  border-color: #A31D1D !important; /* Border color */
+}
+
+.SearchBar .MuiOutlinedInput-root:hover fieldset {
+  border-color: #FEF9E1 !important; /* Hover effect */
+}
+
+.SearchBar .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #FEF9E1 !important; /* Focus effect */
+}
